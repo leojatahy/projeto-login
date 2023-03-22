@@ -12,7 +12,7 @@
     box-sizing: border-box;
 }  
 body, html {
-    background: black;
+    background: rgb(255, 255, 255);
     height: 100vh;
     width: 100vw;
 }
@@ -21,24 +21,27 @@ main {
     height: 100vh;
     width: 100vw;
 }
-#login {
+section#login {
     position:absolute;
+     left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    
     background: white;
     width: 300px;
     height: 500px;
     border-radius: 20px;
-    left: 50%;
-    top: 50%;
-    transform: translate(-50%,-50%);
     overflow: hidden;
-    box-shadow: 0px 0px 0px 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.499);
+
+    transition: width 0.3s height .3s;
 }
 div#imagem {
     display: block;
-    background: black url("../imagens/tela.jpg") no-repeat ;
+    background: rgb(255, 255, 255) url("../imagens/tela.jpg") no-repeat;
     background-size: contain;
-    height: 225px;
-    width: 300px;
+    height: 172px;
+    width: 100vw;
 }
 div#formulario {
     display: block;
