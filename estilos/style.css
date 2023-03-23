@@ -94,6 +94,7 @@ form > a.botao {
     text-decoration: none;
     border-radius: 5px;
     padding-top: 3px;
+    font-weight: 400;
 }
 form > a.botao:hover {
     background: white;
