@@ -17,6 +17,13 @@
         width: 65%;
         height: 100vh;
     }
+    div.campo input {
+        width: 94%;
+    }
+    form > input[type=submit] {
+        margin-top: 20px;
+        
+    }
 }
 @media screen and (min-width: 992px) {
     section#login {
@@ -38,5 +45,11 @@
     }
     div#formulario > p {
         font-size: 1.2em;
+    }
+    div.campo > input {
+        width: 93%;
+    }
+    form > input[type=submit] {
+        margin-top: 30px;
     }
 }
